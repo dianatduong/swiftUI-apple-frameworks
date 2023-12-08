@@ -24,8 +24,8 @@ struct FrameworkGridView: View {
                         FrameworkTitleView(eachFramework: frameworkItem)
                     }
                 }
-                .navigationTitle("🍎 Frameworks")
             }
+            .navigationTitle("🍎 Frameworks")
         }
     }
 }
@@ -42,6 +42,7 @@ struct FrameworkTitleView: View {
     let eachFramework: Framework
     
     var body: some View {
+        
         VStack {
             Image(eachFramework.imageName)
                 .resizable()
@@ -53,5 +54,6 @@ struct FrameworkTitleView: View {
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
         }
+        .padding()
     }
 }
