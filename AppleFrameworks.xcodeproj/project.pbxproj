@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A300951C2B24E7430092C0A8 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A300951B2B24E7430092C0A8 /* FrameworkDetailView.swift */; };
+		A300951E2B24F5C00092C0A8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A300951D2B24F5C00092C0A8 /* Button.swift */; };
 		A3A658F82B1CFE54005E7A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A658F72B1CFE54005E7A7A /* AppDelegate.swift */; };
 		A3A658FA2B1CFE54005E7A7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A658F92B1CFE54005E7A7A /* SceneDelegate.swift */; };
 		A3A658FE2B1CFE56005E7A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A658FD2B1CFE56005E7A7A /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		A300951B2B24E7430092C0A8 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		A300951D2B24F5C00092C0A8 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		A3A658F42B1CFE54005E7A7A /* AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A658F72B1CFE54005E7A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3A658F92B1CFE54005E7A7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				A3A6590D2B1D006D005E7A7A /* FrameworkGridView.swift */,
 				A3A6590B2B1CFF39005E7A7A /* Framework.swift */,
 				A300951B2B24E7430092C0A8 /* FrameworkDetailView.swift */,
+				A300951D2B24F5C00092C0A8 /* Button.swift */,
 				A3A658FD2B1CFE56005E7A7A /* Assets.xcassets */,
 				A3A659022B1CFE56005E7A7A /* LaunchScreen.storyboard */,
 				A3A659052B1CFE56005E7A7A /* Info.plist */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3A6590C2B1CFF3A005E7A7A /* Framework.swift in Sources */,
+				A300951E2B24F5C00092C0A8 /* Button.swift in Sources */,
 				A300951C2B24E7430092C0A8 /* FrameworkDetailView.swift in Sources */,
 				A3A6590E2B1D006D005E7A7A /* FrameworkGridView.swift in Sources */,
 				A3A658F82B1CFE54005E7A7A /* AppDelegate.swift in Sources */,
